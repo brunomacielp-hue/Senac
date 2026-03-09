@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+
+    background-color: rgb(40, 18, 202);
+    
+
+}
+
+.box2 {
+    background-color: rgb(41, 242, 10);
+         
+    
+}
+
+.box3 {
+    background-color: rgb(255, 0, 0);
+   
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: colunas; */
+}

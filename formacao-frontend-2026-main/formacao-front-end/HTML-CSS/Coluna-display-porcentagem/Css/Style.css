@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+
+    background-color: rgb(40, 18, 202);
+    width: 33.33px;
+    float: left;
+
+}
+
+.box2 {
+    background-color: rgb(41, 242, 10);
+        width: 33.33px;
+        float : left;   
+    
+}
+
+.box3 {
+    background-color: rgb(255, 0, 0);
+    width: 33.33px;
+    float: left;
+    
+}
+
+.barra {
+    clear: both;
+}

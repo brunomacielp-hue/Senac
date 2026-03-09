@@ -1,0 +1,112 @@
+<style>
+    #medalhas {
+        border-collapse: collapse;
+    }
+
+    #medalhas th,
+    #medalhas tfoot td {
+        background: #000;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #medalhas td {
+        border: 1px solid #000;
+        padding: 10px;
+        text-align: center;
+    }
+
+    caption {
+        border: 1px solid #000;
+        background: red;
+        padding: 8px;
+    }
+
+    #medalhas tbody tr:nth-child(odd) {
+        background: green;
+    }
+
+    #medalhas tbody tr:nth-child(even) {
+        background: rgba(242, 234, 5, 0.998);
+    }
+
+    #coluna1,
+    #coluna3 {
+        background: red;
+    }
+</style>
+<header>
+    <body>
+        <table id="medalhas">
+    <caption>Medalhas</caption>
+
+    <colgroup>
+        <col id="coluna1">
+        <col>
+        <col id="coluna3">
+        <col>
+        <col>
+    </colgroup>
+
+    <thead>
+        <tr>
+            <th scope="col">País</th>
+            <th scope="col">Ouro</th>
+            <th scope="col">Prata</th>
+            <th scope="col">Bronze</th>
+            <th scope="col">Total</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <th scope="row">Brasil</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th scope="row">Brasil</th>
+            <td>5</td>
+            <td>6</td>
+            <td>6</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <th scope="row">Brasil</th>
+            <td>5</td>
+            <td>6</td>
+            <td>6</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <th scope="row">Brasil</th>
+            <td>5</td>
+            <td>6</td>
+            <td>6</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <th scope="row">Brasil</th>
+            <td>5</td>
+            <td>6</td>
+            <td>6</td>
+            <td>17</td>
+        </tr>
+    </tbody>
+
+    <tfoot>
+        <tr>
+            <td>Total Geral</td>
+            <td>21</td>
+            <td>26</td>
+            <td>27</td>
+            <td>74</td>
+        </tr>
+    </tfoot>
+
+</table>
+    </body>
+</header>
