@@ -1,31 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.box1{
-
-    background-color: rgb(40, 18, 202);
-    
-
+.box1 {
+    background-color: red;    
 }
 
 .box2 {
-    background-color: rgb(41, 242, 10);
-         
-    
+    background-color: pink;   
 }
 
 .box3 {
-    background-color: rgba(6, 234, 161, 0.891);
-   
-    
+    background-color: green;   
 }
 
-main {
+main{
     display: grid;
-    grid-template-columns: 50% 25% 25%;
-    grid-template-columns: 50fr 0.5fr 0.5rf;
-    
+    /* grid-template-columns: 50% 25% 25%; */
+    /* grid-template-columns: 1fr 0.5fr 0.5fr; */
+    grid-template-columns: repeat(3,1fr);
 }
